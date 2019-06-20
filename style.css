@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "ArialNarrow-Bold";
+    src: url(fonts/ArialNarrow-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ArialNarrow-Italic";
+    src: url(fonts/ArialNarrow-Italic.ttf);
+}
+
+@font-face {
+    font-family: "SegoeUI-Bold";
+    src: url(fonts/SegoeUI-Bold.ttf);
+}
+
+
+
+html {
+    overflow: visible;
+    background-color: black;
+}
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 540px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.asset-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 540px;
+    
+}
+.header-wrapper {
+    height: 110px;
+    width: 1920px;
+    background-color: #4E2D83;
+    margin-top: 30px;
+}
+.header-flame {
+    height: 84px;
+    width: 297px;
+    color: #ffffff;
+    font-family:"SegoeUI-Bold";
+    font-size: 110px;
+    line-height: 33px;
+    margin-top:30px;
+    margin-bottom: 13px;
+    margin-left: 109px;
+    position: absolute;
+
+}
+.item {
+    height: 48px;
+    width: 565px;
+    color: #000000;
+    font-family:"ArialNarrow-Bold";
+    font-size: 50px;
+    line-height: 50px; 
+}
+.item.wrapper {
+    display:inline;
+}
+.cals {
+    font-size: 50px;
+    color: #000000;
+    font-family:"ArialNarrow-Bold";
+    height: 37px;
+    width: 157px;
+    line-height:18px;
+    text-align: right;
+    display: inline;
+}
+img {
+    height: 60px;
+    width: 60px;
+}
+.item-context {
+    height: 112px;
+    width: 1855px;
+    color: #000000;
+    font-family:"ArialNarrow-Italic";
+    font-size: 28px;
+    line-height: 28px;
+}
